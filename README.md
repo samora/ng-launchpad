@@ -193,5 +193,5 @@ script(src='http://localhost:35729/livereload.js')
 
 ## Contributing
 
-A lot can be done to improve things, so feel free to [contact me](http://samora.me).
-Feeling ambitious? Submit a pull request.
+A good starting point, but surely improvements can be made. Feel free to [contact me](http://www.samora.me).
+Better still, submit a pull request.
