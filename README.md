@@ -35,7 +35,7 @@ However, ng-launchpad is simpler and differs in a few ways:
   However the files are not minified and compressed.
 * No support for CoffeeScript... yet.
 
-`ng-launchpad` is a little simpler than `ngBoilerplate` on purpose, yet keeps the same ideas.
+`ng-launchpad` is a simpler than `ngBoilerplate` on purpose, yet keeps the same ideas.
 
 ## Features
 
