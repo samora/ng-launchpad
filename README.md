@@ -171,7 +171,7 @@ Some tasks, notably those which run e2e tests with Protractor, may take a while 
 on first run. This is because the webdriver needs to be downloaded and installed first.
 
 You can change the output production directory by changing the `productionDir` variable
-in `Gulpfile.js`. This will rename the `clean:_public` task to `clean:<production directory>`.
+in `Gulpfile.js`. This will rename the `clean:_public` task to `clean:<productionDir>`.
 
 ### Development server & Live Reload
 
