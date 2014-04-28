@@ -10,7 +10,7 @@ Install Node.js and Git and then:
 ```sh
 $ git clone git://github.com/samora/ng-launchpad
 $ cd ng-launchpad
-$ sudo npm install -g gulp bower
+$ npm install -g gulp bower
 $ npm install
 $ gulp
 ```
@@ -90,9 +90,9 @@ ng-launchpad/
 
 * `src/`- app's sources.
   * `common/`- shared components used by other modules in `src/modules/`.
-    If the folder doesn't exisit you must create it.
+    If the folder doesn't exist you must create it.
   * `img/`- drop images here. Remember's directory structure when copying
-    into build/production folder.
+    into build or production folder.
   * `less/`-
     * `main.less`- main css file used to generate `main.css`.
       All Less files in `src/common` & `src/modules` are concatenated into `main.less`
@@ -110,9 +110,6 @@ ng-launchpad/
 * `package.json`- used by NPM.
 * `protractor.conf.js`- Protractor settings.
 
-
-
-
 ### File naming conventions for `src/common` and `src/modules`
 
 * Start file names within a specific module with a common prefix.
@@ -128,6 +125,46 @@ ng-launchpad/
   Example: `src/modules/home/home.tpl.jade` becomes `home/home.tpl.html`.
 * Unit tests: `*.spec.jade`.
 * e2e tests: `*.scenario.jade`.
+
+### Installation
+
+The [Quick Start](#quick-start) should be enough to get most people started.
+However here are more details:
+
+Preferrably you can use [Git](http://git-scm.com) to download ng-launchpad and start
+hacking.
+
+```sh
+$ git clone git://github.com/samora/ng-launchpad <directory>
+$ cd <directory>
+```
+
+Or you can [download](https://github.com/samora/ng-launchpad/archive/master.zip)
+a zipped copy.
+
+Then, make sure you have `gulp` and `bower` installed globally. You might have to
+prefix the command with `sudo` in Linux if you don't have appropriate permissions.
+
+```sh
+$ npm install -g gulp bower
+```
+
+Finally, install all dependencies.
+
+```sh
+$ npm install
+```
+
+`bower install` will be run automatically after `npm install`.
+
+To make sure everything is working run:
+
+```sh
+$ gulp watch
+```
+
+__Note__: On first run this might take a while as Protractor's webdriver must be
+downloaded and installed.
 
 
 ### Build System: Managing Tasks with gulp.js
