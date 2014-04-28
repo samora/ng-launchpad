@@ -89,7 +89,8 @@ ng-launchpad/
 ```
 
 * `src/`- app's sources.
-  * `common/`- shared components used by other modules in `src/modules/`
+  * `common/`- shared components used by other modules in `src/modules/`.
+    If the folder doesn't exisit you must create it.
   * `img/`- drop images here. Remember's directory structure when copying
     into build/production folder.
   * `less/`-
