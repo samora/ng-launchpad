@@ -149,7 +149,7 @@ prefix the command with `sudo` in Linux if you don't have appropriate permission
 $ npm install -g gulp bower
 ```
 
-Finally, install all dependencies.
+Finally, install dependencies from root folder:
 
 ```sh
 $ npm install
@@ -157,7 +157,7 @@ $ npm install
 
 `bower install` will be run automatically after `npm install`.
 
-To make sure everything is working run:
+To make sure everything is working:
 
 ```sh
 $ gulp watch
