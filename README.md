@@ -183,10 +183,10 @@ When you load your page, click the Live Reload icon in your toolbar and
 everything should work magically. 
 
 If you'd prefer to not install a browser extension, then you must add the
-following to the end of the `body` tag in `index.html`:
+following to the end of the `body` tag in `index.jade`:
 
-```html
-<script src="http://localhost:35729/livereload.js"></script>
+```jade
+script(src='http://localhost:35729/livereload.js')
 ```
 
 ## Contributing
