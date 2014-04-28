@@ -155,6 +155,7 @@ $ gulp compile
 * `karma:watch`- Run unit tests with Karma and watch for changes.
 * `protractor`- Run e2e tests with Protractor.
 * `protractor:watch`- Run e2e tests with Protractor and watch for changes.
+* `test`- Run unit and e2e tests.
 * `watch:files`- Build files, run local server and watch for changes.
 * `watch:test`- Run unit tests with Karma, run e2e tests with Protractor and watch
   for changes.
