@@ -115,7 +115,7 @@ ng-launchpad/
 ### File naming conventions for `src/common` and `src/modules`
 
 * Start file names within a specific module with a common prefix.
-  Example: In the `src/modules/home` module all file names should begin with `home`; 
+  Example: In the `src/modules/home/` all file names should begin with `home`; 
   `home.js`, `homeCtrl.js`, `homeCtrl.spec.js`, `home.tpl.jade`, `home.scenario.js`,
   `home.less`.
 * Templates: `*.tpl.jade`.
