@@ -1,0 +1,72 @@
+doctype
+html.no-js(ng-app='app', ng-controller='AppCtrl')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    title(ng-bind='pageTitle')
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    //- CDNs
+    link(rel='stylesheet', href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css')
+
+    link(rel='stylesheet', href='css/main.css')
+
+    script(type='text/javascript', src='js/vendor.js')
+    //- script(type='text/javascript', src='js/templates-common.js')
+    script(type='text/javascript', src='js/templates-modules.js')
+    script(type='text/javascript', src='js/app.js')
+
+  body
+    <!--[if lt IE 8]>
+    p.browsehappy
+      | You are using an <strong>outdated</strong> browser.
+      | Please <a href="http://browsehappy.com/">upgrade your browser</a>
+      | to improve your experience.
+    <![endif]-->
+
+    .navbar.navbar-default.navbar-fixed-top
+      .container-fluid
+        .navbar-header
+          button.navbar-toggle(type='button', 
+            data-toggle='collapse', 
+            data-target='#main-navbar')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+
+          .navbar-brand ng-launchpad
+
+        .collapse.navbar-collapse#main-navbar
+          ul.nav.navbar-nav
+            li(ui-sref-active='active' ng-repeat='item in links')
+              a(ui-sref='{{item.state}}').
+                <i class="fa fa-fw fa-{{item.icon}}"></i>
+                {{item.text}}
+
+
+          ul.nav.navbar-nav.navbar-right
+            li: a(href='https://github.com/samora/ng-launchpad#readme').
+              <i class="fa fa-fw fa-book"></i>
+              Documentation
+
+    div(ui-view)
+
+    footer
+      .container
+        .col-xs-12
+          p &copy; 2014 <a href="http://samora.me">Samora Dake</a>.
+
+
+
+
+    //- Google Analytics: change UA-XXXXX-X to be your site's ID.
+    //-
+      script
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
