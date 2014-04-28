@@ -1,10 +1,11 @@
 {
   "name": "ng-launchpad",
-  "devDependencies": {
-    "angular": "~1.2",
-    "angular-mocks": "~1.2",
-    "bootstrap": "~3.1",
-    "angular-ui-router": "~0.2",
-    "angular-bootstrap": "~0.10.0"
+  "dependencies": {
+    "angular": "~1.2.16",
+    "angular-mocks": "~1.2.16",
+    "bootstrap": "~3.1.1",
+    "angular-ui-router": "~0.2.10",
+    "angular-bootstrap": "~0.10.0",
+    "jquery": "~2.1.0"
   }
 }

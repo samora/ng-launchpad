@@ -7,42 +7,39 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/samora/nglp"
+    "url": "https://github.com/samora/ng-launchpad"
   },
   "author": "Samora Dake",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/samora/nglp/issues"
+    "url": "https://github.com/samora/ng-launchpad/issues"
   },
-  "homepage": "https://github.com/samora/nglp",
-  "devDependencies": {
-    "gulp": "~3.6",
-    "gulp-concat": "~2.2",
-    "gulp-clean": "~0.2",
-    "gulp-jshint": "~1.5",
-    "gulp-less": "~1.2",
-    "gulp-html2js": "~0.1",
-    "gulp-changed": "~0.3",
-    "gulp-livereload": "~1.3",
-    "connect": "~2.14",
-    "gulp-jade": "~0.5",
-    "gulp-minify-css": "~0.3",
-    "gulp-ngmin": "~0.2",
-    "gulp-uglify": "~0.2",
-    "gulp-htmlmin": "~0.1",
-    "gulp-imagemin": "~0.4",
-    "gulp-cache": "~0.1",
-    "run-sequence": "~0.3",
-    "gulp-wrap": "~0.3",
-    "gulp-protractor": "0.0",
-    "protractor": "~0.22",
-    "karma": "~0.12",
-    "gulp-karma": "0.0",
+  "homepage": "https://github.com/samora/ng-launchpad",
+  "dependencies": {
+    "karma-chrome-launcher": "~0.1.3",
+    "karma-beep-reporter": "~0.1.4",
     "karma-jasmine": "~0.1.5",
     "karma-growl-reporter": "~0.1.1",
-    "karma-beep-reporter": "~0.1.4",
-    "karma-junit-reporter": "~0.2.2",
-    "karma-chrome-launcher": "~0.1.3"
-  },
-  "dependencies": {}
+    "run-sequence": "~0.3.6",
+    "connect": "~2.14.5",
+    "gulp-wrap": "~0.3.0",
+    "gulp-cache": "~0.1.3",
+    "gulp-ngmin": "~0.2.0",
+    "gulp-livereload": "~1.3.1",
+    "gulp-uglify": "~0.2.1",
+    "gulp-jade": "~0.5.0",
+    "gulp-minify-css": "~0.3.2",
+    "gulp-html2js": "~0.1.0",
+    "gulp-clean": "~0.2.4",
+    "gulp-jshint": "~1.5.5",
+    "gulp-protractor": "0.0.7",
+    "gulp-concat": "~2.2.0",
+    "gulp": "~3.6.2",
+    "gulp-karma": "0.0.4",
+    "gulp-htmlmin": "~0.1.2",
+    "protractor": "~0.22.0",
+    "gulp-less": "~1.2.3",
+    "karma": "~0.12.14",
+    "gulp-imagemin": "~0.5.0"
+  }
 }
