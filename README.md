@@ -99,7 +99,7 @@ ng-launchpad/
     * `variables.less`- override bootstrap variables or add your own.
   * `modules`- main app components go here.
 * `vendor/`- 3rd-party libraries. Bower will install packages here.
-  _Note_: Anything added here should be manually added to `build.config.js`'s
+  __Note__: Anything added here should be manually added to `build.config.js`'s
   `files.js.vendor` property.
 * `.bowerrc`- tells Bower to install dependencies to `vendor/`.
 * `bower.json`- project's Bower configuration.
@@ -150,7 +150,7 @@ $ gulp compile
   files have been minified and compressed, ready for deployment!
 * `default`- Build files, run local server, run unit tests using Karma and 
   watch for changes. Can also be run with just `gulp` command.
-  _Note_: Does not run e2e tests.
+  __Note__: Does not run e2e tests.
 * `karma`- Run unit tests with Karma.
 * `karma:watch`- Run unit tests with Karma and watch for changes.
 * `protractor`- Run e2e tests with Protractor.
@@ -163,7 +163,7 @@ $ gulp compile
 * `clean`- Delete `build` & production (default: `_public`) directories.
 * `clean:build`- Delete `build` directory.
 * `clean:_public`- Delete `_public` directory.
-* `server`- Run local server. _Note_: No Live Reload.
+* `server`- Run local server. __Note__: No Live Reload.
 
 You can change the output production directory by changing the `productionDir` variable
 in `Gulpfile.js`. This will rename the `clean:_public` task to `clean:<production directory>`.
