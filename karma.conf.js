@@ -1,5 +1,3 @@
-var config = require('./build.config.js');
-
 module.exports = function (config) {
   config.set({
     // files: config.files.test.unit,
