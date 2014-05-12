@@ -209,7 +209,12 @@ gulp.task('watch:files', ['server'], function () {
 
   gulp.watch(files.jade.tpls.common, ['js:templates-common']);
 
-  gulp.watch(files.less.main, ['css']);
+  gulp.watch([
+        'src/less/main.less',
+        'src/less/variables.less',
+        'src/common/**/*.less',
+        'src/modules/**/*.less'
+      ], ['css']);
 
   gulp.watch(files.jade.index, ['html']);
 
