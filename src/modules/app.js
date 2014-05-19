@@ -3,6 +3,7 @@ angular.module( 'app', [
   // 'templates-common',
   'app.home',
   'ui.router',
+  'ui.bootstrap.tpls',
   'ui.bootstrap'
 ])
 

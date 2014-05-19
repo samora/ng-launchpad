@@ -14,7 +14,7 @@ module.exports = {
         'vendor/angular/angular.js',
         'vendor/angular-mocks/angular-mocks.js',
         'vendor/angular-ui-router/release/angular-ui-router.js',
-        'vendor/angular-bootstrap/ui-bootstrap.js'
+        'vendor/angular-bootstrap/ui-bootstrap-tpls.js'
       ],
 
       app: [
