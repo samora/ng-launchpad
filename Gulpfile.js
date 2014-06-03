@@ -240,12 +240,7 @@ gulp.task('watch', function (callback) {
 });
 
 // Same as watch but does not run e2e tests.
-gulp.task('default', function (callback) {
-  runSequence(
-    'watch:files',
-    'karma:watch',
-    callback);
-});
+gulp.task('default', ['watch:files']);
 
 
 

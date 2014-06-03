@@ -186,8 +186,7 @@ $ gulp compile
 * `build`- Process and package files into `build/` folder.
 * `compile`- Process files into production directory (default: `_public`). These
   files have been minified and compressed, ready for deployment!
-* `default`- Build files, run local server, run unit tests using Karma and 
-  watch for changes. Can also be run with just `gulp` command.
+* `default`- Same as `watch:files`. Build files, run local server and watch for changes. Can also be run with just `gulp` command.
   __Note__: Does not run e2e tests.
 * `karma`- Run unit tests with Karma.
 * `karma:watch`- Run unit tests with Karma and watch for changes.
