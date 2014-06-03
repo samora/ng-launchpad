@@ -239,7 +239,7 @@ gulp.task('watch', function (callback) {
     callback);
 });
 
-// Same as watch but does not run e2e tests.
+// Same as watch:files.
 gulp.task('default', ['watch:files']);
 
 
