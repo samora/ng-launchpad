@@ -41,7 +41,7 @@ gulp.task('js:app', function () {
     .pipe(ngmin())
     .pipe(concat('app.js'))
     .pipe(wrap('(function ( window, angular, undefined ) {\n'
-      // + '\'use strict\';\n'
+      + '\'use strict\';\n'
       + '<%= contents %>'
       + '})( window, window.angular );'))
     .pipe(gulp.dest(files.js.buildDest));

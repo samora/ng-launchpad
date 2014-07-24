@@ -1,9 +1,9 @@
-'use strict';
+'use strict'
 
 describe('app', function () {
-  browser.get('/');
+  browser.get('/')
 
   it('should redirect to /home', function () {
-    expect(browser.getLocationAbsUrl()).toMatch('/home');
-  });
-});
+    expect(browser.getLocationAbsUrl()).toMatch('/home')
+  })
+})

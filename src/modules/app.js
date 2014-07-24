@@ -17,14 +17,9 @@ angular.module( 'app', [
         pageTitle: 'Home'
       }
     })
-    ;
-
-  $urlRouterProvider.otherwise( '/home' );
-
-  $locationProvider.hashPrefix('!');
+  $urlRouterProvider.otherwise( '/home' )
+  $locationProvider.hashPrefix('!')
 })
 
 .run( function run () {
 })
-
-;

@@ -1,4 +1,2 @@
 angular.module('app.home', [
   ])
-
-;
