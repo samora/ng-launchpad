@@ -2,7 +2,7 @@
   "name": "ng-launchpad",
   "description": "An opinionated starting point for Angular JS projects.",
   "scripts": {
-    "postinstall": "bower install",
+    "postinstall": "bower update",
     "test": "gulp test"
   },
   "repository": {
